@@ -10,7 +10,7 @@ on:
 
 jobs:
   cypress-run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Use Ubuntu 22.04 instead of ubuntu-latest
 
     steps:
       - name: Check out repository
